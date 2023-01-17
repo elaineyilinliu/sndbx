@@ -36,7 +36,6 @@ module.exports = {
 		new CopyPlugin({
 			patterns: [
 				{ from: 'src/assets', to: 'assets' },
-				{ from: 'node_modules/simple-peer-wrapper/dist', to: 'spw' },
 			],
 		}),
 	],
